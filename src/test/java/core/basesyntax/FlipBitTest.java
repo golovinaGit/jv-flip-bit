@@ -17,7 +17,6 @@ public class FlipBitTest {
             }
         }
     }
-
     public int correctFlipBit(int value, int bitIndex) {
         StringBuilder binaryString = new StringBuilder(Integer.toBinaryString(value));
         StringBuilder result = new StringBuilder();
